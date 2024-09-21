@@ -89,6 +89,26 @@ html{position:absolute;
   display: block;
   text-align: center;
 }
+@media (max-width: 450px){
+    p{
+        font-size:6vw;
+    }
+    html {
+
+  margin-right: 0px;
+        font-size:7vw;
+    }
+    h1{
+	line-height: 15vw;
+ line-height: 70%; 
+ }
+#sun {
+    position:absolute;
+    right:0%;
+    height:5%;
+    margin-top:35%;
+    z-index:0;
+}
 .video-responsive{
 overflow:hidden;
 padding-bottom:56.25%;
